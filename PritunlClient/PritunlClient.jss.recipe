@@ -5,9 +5,9 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.4 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of pritunl-client-electron and imports it into your JSS.</string>
+	<string>Downloads the latest version of PritunlClient and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.pritunl-client-electron</string>
+	<string>com.github.jss-recipes.jss.PritunlClient</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -17,7 +17,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>pritunl-client-electron</string>
+		<string>PritunlClient</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.tecnico1931.pkg.pritunl-client-electron</string>
+	<string>com.github.tecnico1931.pkg.PritunlClient</string>
 	<key>Process</key>
 	<array>
 		<dict>

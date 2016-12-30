@@ -5,15 +5,15 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.4 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of pritunl-client-electron and imports it into Munki.</string>
+	<string>Downloads the latest version of PritunlClient and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.tecnico1931.munki.pritunl-client-electron</string>
+	<string>com.github.tecnico1931.munki.PritunlClient</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>pritunl-client-electron</string>
+		<string>PritunlClient</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -25,7 +25,7 @@
 			<key>developer</key>
 			<string>Zachary Huff</string>
 			<key>display_name</key>
-			<string>pritunl-client-electron</string>
+			<string>PritunlClient</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.tecnico1931.download.pritunl-client-electron</string>
+	<string>com.github.tecnico1931.download.PritunlClient</string>
 	<key>Process</key>
 	<array>
 		<dict>

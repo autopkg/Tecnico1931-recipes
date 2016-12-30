@@ -5,15 +5,15 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.4 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of pritunl-client-electron.</string>
+	<string>Downloads the latest version of PritunlClient.</string>
 	<key>Identifier</key>
-	<string>com.github.tecnico1931.download.pritunl-client-electron</string>
+	<string>com.github.tecnico1931.download.PritunlClient</string>
 	<key>Input</key>
 	<dict>
 		<key>GITHUB_REPO</key>
-		<string>pritunl/pritunl-client-electron</string>
+		<string>pritunl/PritunlClient</string>
 		<key>NAME</key>
-		<string>pritunl-client-electron</string>
+		<string>PritunlClient</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -64,7 +64,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/pritunl-client-electron.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/PritunlClient.app</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
@@ -73,7 +73,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/pritunl-client-electron.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/PritunlClient.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
