@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://downloads-cdn.airtame.com/application/ga/osx_x64/releases/airtame-application-3.1.1.dmg</string>
+		<string>https://downloads-cdn.airtame.com/application/ga/osx_x64/releases/airtame-application-3.1.1.dmg</string>
 		<key>NAME</key>
 		<string>Airtame</string>
 	</dict>
