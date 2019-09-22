@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Restor and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.Restor</string>
+	<string>tecnico1931.jss.Restor</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>tecnico1931.pkg.Restor</string>
+	<string>com.github.nstrauss.pkg.Restor</string>
 	<key>Process</key>
 	<array>
 		<dict>
