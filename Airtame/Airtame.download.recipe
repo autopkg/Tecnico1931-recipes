@@ -5,13 +5,13 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Airtame.</string>
+	<string>Downloads the latest DMG version of Airtame.</string>
 	<key>Identifier</key>
 	<string>tecnico1931.download.Airtame</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://downloads-cdn.airtame.com/application/ga/osx_x64/releases/airtame-application-3.1.1.dmg</string>
+		<string>https://downloads-cdn.airtame.com/get.php?platform=osx_x64&amp;_ga</string>
 		<key>NAME</key>
 		<string>Airtame</string>
 	</dict>
@@ -50,11 +50,16 @@
 			<dict>
 				<key>input_plist_path</key>
 				<string>%pathname%/Airtame.app/Contents/Info.plist</string>
-				<key>plist_version_key</key>
-				<string>CFBundleVersion</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleVersion</key>
+					<string>version</string>
+					<key>LSMinimumSystemVersion</key>
+					<string>minimum_os_vers</string>
+				</dict>
 			</dict>
 			<key>Processor</key>
-			<string>Versioner</string>
+			<string>PlistReader</string>
 		</dict>
 	</array>
 </dict>
