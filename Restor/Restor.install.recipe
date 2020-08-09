@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>tecnico1931.download.Restor</string>
+	<string>com.github.nstrauss.download.Restor</string>
 	<key>Process</key>
 	<array>
 		<dict>
