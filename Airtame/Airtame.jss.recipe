@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Airtame and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.Airtame</string>
+	<string>com.github.tecnico1931.jss.Airtame</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

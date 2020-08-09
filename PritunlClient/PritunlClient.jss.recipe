@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of PritunlClient and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.PritunlClient</string>
+	<string>com.github.tecnico1931.jss.PritunlClient</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
