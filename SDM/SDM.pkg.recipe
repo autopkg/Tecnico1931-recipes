@@ -10,8 +10,6 @@
 	<string>com.github.tecnico1931.pkg.SDM</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.electron.sdm</string>
 		<key>NAME</key>
 		<string>SDM</string>
 	</dict>
